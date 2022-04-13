@@ -42,20 +42,24 @@ console.log(typeof i)
 /*Ocorreu esse erro primeiramente pois não havia colocado as aspas na 
 variavel n e por isso não estava recendo como string */
 
-let nome = "Jr"
-let idade = 26
+let nome = prompt("Qual o meu nome?")
+let idade = prompt("Qual a minha idade")
 
 console.log("Olá!", "Meu nome é ", nome, "e tenho", idade, "anos");
 
 //Exercícios de escrita de código 2
 
-let um = "Sim"
-let dois = "Sim"
-let tres = "Não"
+let q
+let v 
+let v1
 
-console.log("Voce esta usando roupa azul hoje?", um);
-console.log("Voce está gostando do curso?", dois);
-console.log("Voce trabalhou até as 19h hoje?", tres);
+q = prompt("Voce esta usando roupa azul hoje? Sim/Não");
+v = prompt("Voce está gostando do curso? Sim/Não");
+v1 = prompt("Voce trabalhou até as 19h hoje? Sim/Não" );
+
+console.log("Voce esta usando roupa azul hoje?", q);
+console.log("Voce está gostando do curso?", v);
+console.log("Voce trabalhou até as 19h hoje?", v1);
 
 //Exercícios de escrita de código 3
 
@@ -66,7 +70,6 @@ let c = a;
 
 a = b;
 b = c;
-
 
 console.log("O novo valor de a é", a);
 console.log("O novo valor de b é", b);
