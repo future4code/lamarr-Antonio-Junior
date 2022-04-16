@@ -81,6 +81,168 @@ console.log(divisivel1);
 console.log(divisivel2);
 
 
+//DESAFIOS Aula - Operadores e Lógica de Programação
+//1.a)
+
+// function fahrenheit (fk) {
+    
+    
+//     let resultado = fk
+    
+//         resultado = (fk - 32)*(5/9) + 273.15
+    
+
+//     return resultado
+
+// }
+
+// console.log(fahrenheit(77));
+
+
+//1.b)
+// function celsius (c) {
+    
+//     let resultado = c
+    
+    
+//         resultado = (c)*(9/5) + 32
+    
+
+//     return resultado
+
+// }
+
+// console.log(celsius(80));
+
+//1.c)
+// function fahrenheit (fk) {
+    
+//     let resultado = fk
+    
+//         resultado = (fk - 32)*(5/9) + 273.15
+    
+
+//     return resultado
+
+// }
+
+
+//
+// function celsius (c) {
+    
+//     let resultado = c
+    
+    
+//         resultado = (c)*(9/5) + 32
+    
+
+//     return resultado
+
+// }
+
+// console.log(fahrenheit(30), celsius(30));
+
+//1.d)
+// let fk = prompt("Qual o valor em fahrenheit?")
+// console.log((fk - 32)*(5/9) + 273.15)
+
+// let c = prompt("Qual o valor em fahrenheit?")
+// console.log((c)*(9/5) + 32)
+
+//2.a)b)
+// function quiloWatt (qw) {
+    
+    
+//     let resultado = qw
+    
+//         resultado = qw*0.05*15/100*100
+    
+
+//     return resultado
+
+// }
+
+// console.log(quiloWatt(280));
+
+//3.a)
+// function libra (lb) {
+
+// let resultado = lb
+
+// resultado = lb*0.453592
+
+// return resultado
+
+// }
+
+// console.log(libra(20));
+
+//3.b)
+// function onca (oz) {
+
+//     let resultado = oz
+    
+//     resultado = oz*0.0283495
+    
+//     return resultado
+    
+//     }
+ 
+//3.c)
+//     console.log(onca(10,5));
+
+// function milha (mi) {
+
+//     let resultado = mi
+    
+//     resultado = mi*1609.34
+    
+//     return resultado
+    
+//     }
+    
+//     console.log(milha(100));
+
+//3.d)
+// function pes (ft) {
+
+//     let resultado = ft
+    
+//     resultado = ft*0.3048
+    
+//     return resultado
+    
+//     }
+    
+//     console.log(pes(50));
+
+//3.e)
+// function galao (gal) {
+
+//     let resultado = gal
+    
+//     resultado = gal*4.54609
+    
+//     return resultado
+    
+//     }
+    
+//     console.log(galao(103.56));
+
+//3.f)
+// function xicara (xic) {
+
+//     let resultado = xic
+    
+//     resultado = xic*0.24
+    
+//     return resultado
+    
+//     }
+    
+//     console.log(xicara(450));
+
+
 
 
 
