@@ -150,7 +150,7 @@ function checaIgualdadeDesconsiderandoCase(string1, string2) {
  
   return qm
 
-}
+} 
 
 
 
@@ -158,6 +158,21 @@ function checaIgualdadeDesconsiderandoCase(string1, string2) {
 // EXERCÍCIO 13
 function checaRenovacaoRG() {
   // implemente sua lógica aqui
+//   const anoAtual = Number(prompt("Qual o ano estamos?"));
+//   const anoNascimento = Number(prompt("Qual o ano do seu nascimento?"));
+//   const anoDoRg = Number(prompt("Qual o ano foi emitido o seu RG?"));
+  
+  
+//  let rd = (anoAtual - anoNascimento <= 20 && anoDoRg+5 <= anoAtual);
+//  console.log(rd);
+
+//  let rf = (anoAtual - anoNascimento > 20 && anoAtual - anoNascimento < 50 && anoDoRg+10 >= anoAtual )
+//  console.log(rf);
+
+//  let rm = (anoAtual - anoNascimento <= 50 && anoDoRg+15 >= anoAtual )
+//  console.log(rm);
+  
+
 
 }
 
