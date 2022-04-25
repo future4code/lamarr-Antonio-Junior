@@ -199,13 +199,13 @@ function checaAnoBissexto(ano) {
 // EXERCÍCIO 15
 function checaValidadeInscricaoLabenu() {
   // implemente sua lógica aqui
-var num = prompt("Você tem mais de 18 anos? Sim ou Não?")
-var obj = prompt("Você possui ensino médio completo? Sim ou Não?")
-var str = prompt("Você possui disponibilidade exclusiva durante os horários do curso? Sim ou Não?")
+let maiorIdade = prompt("Você tem mais de 18 anos? Sim ou Não?")
+let ensinoMedioCompleto = prompt("Você possui ensino médio completo? Sim ou Não?")
+let disponibilidade = prompt("Você possui disponibilidade exclusiva durante os horários do curso? Sim ou Não?")
 
-let a = num === "sim" 
-let b = obj === "sim" 
-let c = str === "sim" 
+let a = maiorIdade === "sim" 
+let b = ensinoMedioCompleto === "sim" 
+let c = disponibilidade === "sim" 
 
 if (a === b === c){
   console.log(a === b === c)
