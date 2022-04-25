@@ -158,32 +158,60 @@ function checaIgualdadeDesconsiderandoCase(string1, string2) {
 // EXERCÍCIO 13
 function checaRenovacaoRG() {
   // implemente sua lógica aqui
-//   const anoAtual = Number(prompt("Qual o ano estamos?"));
-//   const anoNascimento = Number(prompt("Qual o ano do seu nascimento?"));
-//   const anoDoRg = Number(prompt("Qual o ano foi emitido o seu RG?"));
-  
-  
-//  let rd = (anoAtual - anoNascimento <= 20 && anoDoRg+5 <= anoAtual);
-//  console.log(rd);
+const anoAtual = Number(prompt("Qual o ano estamos?"));
+const anoNascimento = Number(prompt("Qual o ano do seu nascimento?"));
+const anoDoRg = Number(prompt("Qual o ano foi emitido o seu RG?"));
 
-//  let rf = (anoAtual - anoNascimento > 20 && anoAtual - anoNascimento < 50 && anoDoRg+10 >= anoAtual )
-//  console.log(rf);
+let a = anoAtual - anoNascimento
+let b = anoDoRg+5 <= anoAtual
+let c = anoDoRg+10 <= anoAtual
+let d = anoDoRg+15 <= anoAtual
 
-//  let rm = (anoAtual - anoNascimento <= 50 && anoDoRg+15 >= anoAtual )
-//  console.log(rm);
-  
-
+if (a <= 20) {
+  console.log(b)
+} else if (a > 20 && a <= 50) {
+console.log(c)
+} else if (a > 50) {
+  console.log(d)
+} else {
+  console.log("Idade não confere")
+}
 
 }
+
+checaRenovacaoRG()
+
+
 
 // EXERCÍCIO 14
 function checaAnoBissexto(ano) {
   // implemente sua lógica aqui
+    // implemente sua lógica aqui
+  let resultado = ano
+  
+  resultado = (ano % 400 == 0) || (ano % 4 == 0) && (ano % 100 != 0)
 
-}
+  return resultado
+  }
+
+  
 
 // EXERCÍCIO 15
 function checaValidadeInscricaoLabenu() {
   // implemente sua lógica aqui
+var num = prompt("Você tem mais de 18 anos? Sim ou Não?")
+var obj = prompt("Você possui ensino médio completo? Sim ou Não?")
+var str = prompt("Você possui disponibilidade exclusiva durante os horários do curso? Sim ou Não?")
 
+let a = num === "sim" 
+let b = obj === "sim" 
+let c = str === "sim" 
+
+if (a === b === c){
+  console.log(a === b === c)
+} else {
+  console.log(false)
 }
+}
+
+checaValidadeInscricaoLabenu()
