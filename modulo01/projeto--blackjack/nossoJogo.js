@@ -11,37 +11,75 @@
  * 
  */
 
-    let usuario = [];
-    let computador = [];
 
-    let carta = comprarCarta()
-    let carta1 = comprarCarta()
+    carta1 = comprarCarta()
+    carta2 = comprarCarta()
+    somaDasCartas1 = carta1.valor + carta2.valor
 
-    let cartasIguais = (
-      carta.texto === "A♦️" && carta1.texto === "A♦️"|| 
-      carta.texto === "A♦️" && carta1.texto === "A♥️"||
-      carta.texto === "A♦️" && carta1.texto === "A♣️"||
-      carta.texto === "A♦️" && carta1.texto === "A♠️"||
-      carta.texto === "A♥️" && carta1.texto === "A♦️"|| 
-      carta.texto === "A♥️" && carta1.texto === "A♥️"||
-      carta.texto === "A♥️" && carta1.texto === "A♣️"||
-      carta.texto === "A♥️" && carta1.texto === "A♠️"||
-      carta.texto === "A♣️" && carta1.texto === "A♦️"|| 
-      carta.texto === "A♣️" && carta1.texto === "A♥️"||
-      carta.texto === "A♣️" && carta1.texto === "A♣️"||
-      carta.texto === "A♣️" && carta1.texto === "A♠️"||
-      carta.texto === "A♠️" && carta1.texto === "A♦️"|| 
-      carta.texto === "A♠️" && carta1.texto === "A♥️"||
-      carta.texto === "A♠️" && carta1.texto === "A♣️"||
-      carta.texto === "A♠️" && carta1.texto === "A♠️"
-    );
+    carta3 = comprarCarta()
+    carta4 = comprarCarta()
+    somaDasCartas2 = carta3.valor + carta4.valor
 
-   if (confirm("Bem-vinde ao jogo BlackJack! Quer iniciar uma nova rodada?")){
-        confirm(`Suas cartas são ${carta.texto} ${carta1.texto}`)
+
+    if(confirm("Quer iniciar uma nova rodada?")) {
+      console.log("Bem-vindo(a) ao jogo de Blackjack")
+      console.log(`Usuário - cartas: ${carta1.texto} ${carta2.texto} - ${somaDasCartas1}`);
+      console.log(`Computador - cartas: ${carta2.texto} ${carta3.texto} - ${somaDasCartas2}`)
+
+      if(somaDasCartas1 > somaDasCartas2){
+         console.log("O usuário ganhou!")
+      } else if (somaDasCartas1 < somaDasCartas2){
+         console.log("O computador ganhou!")
+      } else if (somaDasCartas1 === somaDasCartas2) {
+         console.log("Empate")
+      }
 
    } else {
-      alert("O jogo acabou")
+      alert("O jogo acabou!")
    }
+   
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
 
        
-    
+
+  
+
+   
+       
