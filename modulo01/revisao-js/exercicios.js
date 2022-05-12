@@ -22,17 +22,30 @@ function retornaArrayOrdenado(array) {
 
 // EXERCÍCIO 04
 function retornaNumerosPares(array) {
-    return array.filter(array % 2 === 0)
+  const par = x => x % 2 === 0
+  const pares = array.filter(par)
+  return pares
+    
   
 }
 
+
+
 // EXERCÍCIO 05
 function retornaNumerosParesElevadosADois(array) {
- 
+  const par = x => x % 2 === 0
+  const paresAoQuadrado = array.filter(par).map(function(item){
+    return Math.pow(item, 2)
+  })
+  return paresAoQuadrado
 }
+
+
 
 // EXERCÍCIO 06
 function retornaMaiorNumero(array) {
+  var maior = Math.max(...array);
+  return maior
   
 }
 
