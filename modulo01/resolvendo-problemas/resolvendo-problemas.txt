@@ -1,0 +1,14 @@
+Temos nos os 7 passos fundamentais, sendo eles:
+
+1 - Ter atenção no Enunciado
+2 - Retirar informaçoes relevantes
+3 - Pensar entradas e saídas 
+4 - Fazer um esquema visual
+5 - Criar código feito 
+6 - Testar Força bruta
+7 - Refatorar
+
+Todas as informações são extremamente importantes, pois vão modelando o nosso projeto desde ter atenção no enunciado e extrair todas as 
+informaçoes que nosso cliente deseja até a refatoração, onde vamos deixar nosso projeto alinhado.
+
+Acredito que com a prática e o tempo essas informaçoes vão vir naturalmente
