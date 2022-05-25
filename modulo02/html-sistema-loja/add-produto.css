@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: azure;
+}
+h1 {
+  font-size: 60px; 
+  background-color: #2278e9; 
+  color: rgb(9, 10, 10); 
+  text-align: center;
+}
+
+.paragrafo-header {
+    font-size: 20px;
+    background-color: #697fdf; 
+    color: rgb(9, 10, 10); 
+    text-align: center;
+}
+
+.menu{
+    list-style:none;
+    border:1px solid #c0c0c0;
+    float:right;
+    
+    }
+
+.menu li{
+        position:relative;
+        float:left;
+        border-right:1px solid #c0c0c0;
+        }
+
+.menu li a{color:#333; text-decoration:none; padding:5px 10px; display:block;}
+
+.menu li a:hover{
+background:rgb(128, 224, 212);
+color:#fff;
+-moz-box-shadow:0 3px 10px 0 #CCC;
+-webkit-box-shadow:0 3px 10px 0 #ccc;
+text-shadow:0px 0px 5px #fff;
+}
+
+nav {
+    float: none;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+#area
+{
+  position:relative;
+  padding: 5%;
+  left:30.5%;
+  
+}
+#area #formulario
+{
+  position:absolute;
+  display:block;
+  
+}
+fieldset
+{
+    
+  width:400px;
+  height:150px;
+}
+
