@@ -70,3 +70,24 @@ body {
         font: bold15px arial,sans-serif;
         text-shadow: none;
     }
+
+    .img-github{
+        position: relative;
+        margin: 30px;
+        top: 500px;
+        /* left: 1px; */
+    }
+
+    .img-linkedin {
+        position: relative;
+        margin: 50px;
+        top: 399px;
+        left: 40px;
+    }
+
+    /* .img-gmail {
+        position: relative;
+        margin: 50px;
+        top: 295px;
+        left: 100px;
+    } */

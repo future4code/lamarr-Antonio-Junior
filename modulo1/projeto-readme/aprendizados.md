@@ -1,3 +1,0 @@
-# Aprendizados da semana
-
-Bom, essa semana foi incrível e muito produtiva, aprendi junto com a turma sobre ferramentas extremamente importantes (Terminal, git e gitHub) e que com certeza vão nos acompanhar em toda a nossa jornada com Dev. Com uma didática excelente e com uma prática e auxilio de toda a equipe, está sendo possível extrair ao máximo de todo o conteúdo e realmente aprender de verdade.
