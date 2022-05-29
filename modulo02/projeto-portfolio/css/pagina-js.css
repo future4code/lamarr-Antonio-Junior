@@ -42,3 +42,24 @@ body {
         left: 50%;
         transform: translate(-50%, -50%);
       }
+
+      .imagem-do-js-jpg {
+        position: absolute;
+        top: 35%;
+        left: 50%; 
+      }
+
+      .imagem-do-js1-jpg {
+        position: absolute;
+        top: 35%;
+        left: 20%; 
+        
+      }
+
+      p {
+          position: absolute;
+          top: 110px;
+          line-height: 20px;
+          font-size: 20px;
+          margin: 30px;
+      }

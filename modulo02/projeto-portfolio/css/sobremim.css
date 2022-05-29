@@ -7,7 +7,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-image: url("../img/background.jpg");
-    background-size: 120%; 
+    background-size: 160%; 
     font-family: 'Quicksand', sans-serif; 
 }
 
@@ -41,4 +41,46 @@ body {
         top: 10%;
         left: 50%;
         transform: translate(-50%, -50%);
+      }
+
+      .texto-sobre-mim {
+        position: absolute;
+        top: 20%;
+        left: 10%;
+      }
+
+      .oficina {
+        position: absolute;
+        top: 40%;
+        left: 30%; 
+      }
+
+      .destak {
+        position: absolute;
+        top: 40%;
+        left: 10%; 
+      }
+
+      .olx{
+        position: absolute;
+        top: 91%;
+        left: 10%; 
+      }
+
+      .labenu {
+        position: absolute;
+        top: 91%;
+        left: 30%;  
+      }
+
+      .html-css-js {
+        position: absolute;
+        top: 170%;
+        left: 10%;
+      }
+
+      p {
+        line-height: 20px;
+        font-size: 15px;
+        font-weight: bold;
       }

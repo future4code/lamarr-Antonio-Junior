@@ -9,6 +9,7 @@ body {
     background-image: url("../img/background.jpg");
     background-size: 120%; 
     font-family: 'Quicksand', sans-serif; 
+    overflow-y: hidden;
 }
 
 .menu-pagina-inicial {
@@ -16,6 +17,7 @@ body {
     border:1px solid #d1c6c6;
     border-radius: 5%;
     float:right;
+    z-index: 999;
     
 }
 
@@ -83,6 +85,14 @@ body {
         margin: 50px;
         top: 399px;
         left: 40px;
+    }
+
+   
+
+    .capa {
+        position: absolute;
+        top: -15px;
+        left:450px;
     }
 
     /* .img-gmail {

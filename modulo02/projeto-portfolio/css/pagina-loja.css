@@ -42,3 +42,35 @@ body {
         left: 50%;
         transform: translate(-50%, -50%);
       }
+
+      p {
+        position: absolute;
+        top: 110px;
+        line-height: 20px;
+        font-size: 20px;
+        margin: 30px;
+    }
+
+    .loja-foto1 {
+        position: absolute;
+        top: 32%;
+        left: 15%;
+    }
+
+    .loja-foto2 {
+        position: absolute;
+        top: 32%;
+        left: 53%;
+    }
+
+    .loja-foto3 {
+        position: absolute;
+        top: 68%;
+        left: 15%;
+    }
+
+    .loja-foto4 {
+        position: absolute;
+        top: 68%;
+        left: 53%;
+    }
