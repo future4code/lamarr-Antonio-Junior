@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../img/background.jpg");
+    background-size: 120%; 
+    font-family: 'Quicksand', sans-serif; 
+}
+
+.menu-pagina-inicial {
+    list-style:none;
+    border:1px solid #d1c6c6;
+    border-radius: 5%;
+    float:right;
+    
+}
+
+.menu-pagina-inicial li{
+    position:relative;
+    float:left;
+    border-right:1px solid #c0c0c0;
+    }
+
+.menu-pagina-inicial li a{color:#333; text-decoration:none; padding:5px 10px; display:block;}
+
+.menu-pagina-inicial li a:hover{
+    background:rgb(128, 224, 212);
+    color:rgba(189, 178, 178, 0.822);
+    -moz-box-shadow:0 3px 10px 0 #CCC;
+    -webkit-box-shadow:0 3px 10px 0 #ccc;
+    text-shadow:0px 0px 5px #fff;
+    }
+
+    nav {
+        float: none;
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      p {
+        position: absolute;
+        top: 110px;
+        line-height: 20px;
+        font-size: 20px;
+        margin: 30px;
+    }
+
+    .loja-foto1 {
+        position: absolute;
+        top: 32%;
+        left: 15%;
+    }
+
+    .loja-foto2 {
+        position: absolute;
+        top: 32%;
+        left: 53%;
+    }
+
+    .loja-foto3 {
+        position: absolute;
+        top: 68%;
+        left: 15%;
+    }
+
+    .loja-foto4 {
+        position: absolute;
+        top: 68%;
+        left: 53%;
+    }

@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../img/background.jpg");
+    background-size: 120%; 
+    font-family: 'Quicksand', sans-serif; 
+    overflow-y: hidden;
+}
+
+.menu-pagina-inicial {
+    list-style:none;
+    border:1px solid #d1c6c6;
+    border-radius: 5%;
+    float:right;
+    z-index: 999;
+    
+}
+
+.menu-pagina-inicial li{
+    position:relative;
+    float:left;
+    border-right:1px solid #c0c0c0;
+    }
+
+.menu-pagina-inicial li a{color:#333; text-decoration:none; padding:5px 10px; display:block;}
+
+.menu-pagina-inicial li a:hover{
+    background:rgb(128, 224, 212);
+    color:rgba(189, 178, 178, 0.822);
+    -moz-box-shadow:0 3px 10px 0 #CCC;
+    -webkit-box-shadow:0 3px 10px 0 #ccc;
+    text-shadow:0px 0px 5px #fff;
+    }
+
+    nav {
+        float: none;
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+    main {
+        
+        font-weight:bold;
+        font-size: 30px;
+        margin-bottom: 1.5em;
+        line-height: 1.4em;
+        color: rgb(59, 92, 110);
+        position: absolute;
+        top: 40%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+        
+
+    }
+
+
+    button {
+        cursor:pointer;
+        background: #0066A2;
+        color: white;
+        border-style: outset;
+        border-color: #0066A2;
+        height: 50px;
+        width: 100px;
+        font: bold15px arial,sans-serif;
+        text-shadow: none;
+    }
+
+    .img-github{
+        position: relative;
+        margin: 30px;
+        top: 500px;
+        /* left: 1px; */
+    }
+
+    .img-linkedin {
+        position: relative;
+        margin: 50px;
+        top: 399px;
+        left: 40px;
+    }
+
+   
+
+    .capa {
+        position: absolute;
+        top: -15px;
+        left:450px;
+    }
+
+    /* .img-gmail {
+        position: relative;
+        margin: 50px;
+        top: 295px;
+        left: 100px;
+    } */
