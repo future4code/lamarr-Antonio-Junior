@@ -1,13 +1,13 @@
 ```function contaOcorrencias(arrayDeNumeros, numeroEscolhido) {
-  let cont = 0
+  let n = 0
   for (i=0; i<arrayDeNumeros.length; i++ ) {
     if (arrayDeNumeros[i] === numeroEscolhido) {
-      cont++
+      n++
     }
   }
-  if(cont === 0){
-    return `Número não encontrado`
+  if(n === 0){
+    return "Número não encontrado"
   } else {
-    return `O número ${numeroEscolhido} aparece ${cont}x`
+    return `O número ${numeroEscolhido} aparece ${n}x`
   }
 }
