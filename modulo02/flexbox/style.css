@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding: 10px;
+    background-color: mediumvioletred;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.icone-bolinho {
+    width: 20px;
+    height: 20px;
+}
+
+
