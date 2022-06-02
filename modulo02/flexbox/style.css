@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding: 10px;
+    background-color: mediumvioletred;
+    display: flex;
+    justify-content: space-between;
+    /* margin: 20px; */
+}
+
+.icone-bolinho {
+    width: 20px;
+    height: 20px;
+}
+
+
+ul {
+    position: absolute;
+    list-style: none;
+    font-weight: bold;
+    margin: 10px;
+
+}
+
+
+
+nav {
+   display: flex;
+   background-color: #f2d0e0;
+   flex-direction: column;
+   /* align-items: center; */
+   width: 270px;
+   height: 520px;
+   
+}
+
+footer {
+    /* position: relative; */
+    /* top: 10px; */
+    padding: 25px;
+    background-color: mediumvioletred;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.setinha {
+    position: absolute;
+    width: 19px;
+    left: 235px;      
+}
+
+.casinha {
+    width: 19px;
+          
+}
+
+.docinho {
+    width: 19px; 
+}
+
+.carrinho{
+    width: 19px; 
+} 
+
+.perfil {
+    width: 19px; 
+}
+
+
+
+
+
+h3 {
+    position: absolute;
+    left: 500px;
+    top: 903px;
+}
+
+.bolo {
+    width: 100%;
+    
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgb(83, 82, 82);
+    margin: 10px;
+    width: 200px;
+    height: 300px;
+    top: 10px;
+}
+
+
+
+main {
+    display: flex;
+    
+    flex-wrap: wrap;
+   
+    
+}
+
+
+
+
+
