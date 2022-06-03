@@ -10,5 +10,6 @@ const animais = [
  const novaArrayDeNomes = animais.map((item) => {
      return item.nome
  })
+ return novaArrayDeNomes
 
 }
