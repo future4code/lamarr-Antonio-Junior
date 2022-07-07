@@ -16,6 +16,7 @@ function Post(props){
   const [comentando, setComentando] = useState(false)
   const [numeroComentarios, setNumeroComentarios] = useState(0)
 
+
   const onClickCurtida = () => {
     setCurtido(!curtido)
     if(!curtido){
