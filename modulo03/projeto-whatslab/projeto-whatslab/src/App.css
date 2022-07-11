@@ -82,6 +82,16 @@
 	line-height: 60px;
 }
 
+input {
+  left:-100px;
+  position:absolute;
+  
+}
+
+
+
+
+
 
 
 
