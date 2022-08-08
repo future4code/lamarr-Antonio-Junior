@@ -1,24 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import TelaDeMatches from './Components/TelaDeMatches/TelaDeMatches';
+import TelaInicial from './Components/TelaInicial/TelaInicial';
+import {
+  BrowserRouter as Router,
+  Link,
+  Route,
+  Routes
+} from 'react-router-dom'
+import Header from './Components/Header/Header';
+
 
 function App() {
   return (
+    <Router>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+      <Route path="/matches" exact element={<TelaDeMatches />} />
+      <Route path="/telaInicial" exact element={<TelaInicial />} />
+      </Routes>    
     </div>
+    </Router>
   );
 }
 
