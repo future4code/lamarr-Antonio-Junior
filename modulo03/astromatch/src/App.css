@@ -28,6 +28,15 @@
   color: #61dafb;
 }
 
+.home {
+  font-size: 40px;
+  color: rgb(245, 153, 153);
+}
+
+.home:hover {
+  color: rgb(211, 88, 88);
+}
+
 .container {
   margin: auto;
   position: relative;
