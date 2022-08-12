@@ -1,4 +1,8 @@
 import './App.css';
+import { BASE_URL } from './constants';
+import useRequestData from './hooks/useRequestData';
+
+
 import HomePage from './pages/HomePage';
 import ListTripsPage from './pages/ListTripsPage'
 import ApllicationFormPage from './pages/ApplicationFormPage';
@@ -18,10 +22,22 @@ Navigate
 } from 'react-router-dom'
 
 
+
 function App() {
+
+  
+  const listaViagens = useRequestData(`${BASE_URL}trips`)
+
+
+  const user = listaViagens && listaViagens.trips.map((trip)=>{
+    return<li>{trip.name}</li>
+    })
+    
   return (
     <div className="App">
-      
+
+  
+    
       <BrowserRouter>
       <Routes>
         <Route path='/' element={<HomePage />} />
