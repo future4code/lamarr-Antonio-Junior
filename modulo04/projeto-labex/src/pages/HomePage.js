@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { useNavigate } from "react-router-dom"
 import { GiSpaceShuttle } from 'react-icons/gi'
 
-import { goTripList } from "../Coordinator/Coordinator";
+import { goTripList, goToLoginPage } from "../Coordinator/Coordinator";
 
 const Div = styled.div`
 display: flex;
@@ -51,7 +51,7 @@ const HomePage = () => {
         <Div>
              <H1>LABEX <GiSpaceShuttle className="foguetinho" /></H1>
              <div>
-               <Button><pre><h2>Área admiministrativa</h2></pre></Button>
+               <Button onClick={() => goToLoginPage(navigate)}><pre><h2>Área admiministrativa</h2></pre></Button>
                <Button onClick={() => goTripList(navigate)}><pre><h2>   Lista de viagens   </h2></pre></Button>
              </div>
              
