@@ -30,17 +30,16 @@ function App() {
     <div className="App">
 
   
-    
+
       <BrowserRouter>
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/trips/list' element={<ListTripsPage />} />
         <Route path='/trips/application' element={<ApllicationFormPage />} /> 
         <Route path='/login' element={<LoginPage/>} />
-        <Route path='/admin/trips/list' element={<TripDetailsPage />} />
+        <Route path='/admin/trips/list' element={<AdminHomePage />} />
         <Route path='/admin/trips/create' element={<CreateTripPage/>} />
-        <Route path='/admin/trips/:id' element={<AdminHomePage/>} />
-        <Route path='wireframe' element={<Wireframe />} /> */
+        <Route path='/admin/trips/:id' element={<TripDetailsPage />} />
       </Routes>
       </BrowserRouter>
 

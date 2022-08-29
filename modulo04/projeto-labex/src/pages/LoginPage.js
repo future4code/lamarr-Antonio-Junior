@@ -8,7 +8,7 @@ import  useRequestData  from "../hooks/useRequestData";
 import { useNavigate } from "react-router-dom";     
 import { BASE_URL } from "../constants";  
 
-import { goToBack } from "../Coordinator/Coordinator";
+import { goToBack, goToTripDetailsPage } from "../Coordinator/Coordinator";
 
 const Div = styled.div`
 display: flex;
@@ -62,7 +62,11 @@ const LoginPage = () => {
     const fazerLogin = (event) => {
         event.preventDefault()
         axios.post("https://us-central1-labenu-apis.cloudfunctions.net/labeX/junior/login", form)
-        .then((res) => console.log(res.data))
+        .then((res) => {
+            localStorage.setItem("token", res.data.token)
+
+            navigate("/admin/trips/list")
+        })
 
     }
 
