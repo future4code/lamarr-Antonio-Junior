@@ -111,7 +111,7 @@ B. select * from Movies where movie_name = "Doce de mãe";
 C . select id, movie_name, synopsis from Movies where rating >= 7;
 
 
---
+-----
 
 
 
